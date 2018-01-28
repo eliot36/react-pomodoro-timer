@@ -1,0 +1,19 @@
+.Timer {
+  text-align: center;
+  margin: auto;
+}
+
+.Timer-itself {
+  padding-top: 15%;
+}
+
+.Timer .error-msg {
+  position: relative;
+  top: -1em;
+}
+
+.Timer .error-msg > pre {
+  position: absolute;
+  width: 100%;
+  color: red;
+}

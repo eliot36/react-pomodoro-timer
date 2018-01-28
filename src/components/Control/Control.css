@@ -1,0 +1,14 @@
+.Control button {
+	min-width: 4em;
+	min-height: 4em;
+	margin: 0.5em;
+	font-size: 1.2em;
+	padding: 0;
+	border-radius: 50%;
+	user-select: none;
+	background-color: transparent;
+}
+
+.Control button:focus {
+	outline: none;
+}

@@ -1,0 +1,20 @@
+.Alarm {
+	cursor: pointer;
+}
+
+.Alarm img.alarm-bell {
+  -webkit-animation: alarm 1ms infinite;
+  animation: alarm 1ms infinite;
+  background-color: #ffff32;
+  border-radius: 50%;
+}
+
+/* Autoprefixed in transpiler  */
+@keyframes alarm {
+  from {
+    transform: rotate(2deg);
+  }
+  to {
+    transform: rotate(-2deg);
+  }
+}

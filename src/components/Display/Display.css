@@ -1,0 +1,40 @@
+.Display {
+	width: 100%;
+	display: table;
+}
+
+.Display .input {
+	display: table-cell;
+	vertical-align: middle;
+	user-select: none;
+}
+
+.Display .input textarea {
+  color: #000;
+  resize: none;
+  overflow: hidden;
+  font-size: 4em;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+}
+
+.Display .input textarea:focus {
+  color: #808080;
+}
+
+.Display .input textarea[disabled] {
+  color: #000;
+}
+
+.Display .timer-switcher {
+  padding-top: 5%;
+  position: relative;
+}
+
+.Display .timer-switcher p {
+  display: inline-block;
+  width: 4em;
+  cursor: pointer;
+  user-select: none;
+}

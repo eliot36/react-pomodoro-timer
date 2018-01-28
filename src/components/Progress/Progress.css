@@ -1,0 +1,18 @@
+.Progress {
+	position: absolute;
+	z-index: -1;
+}
+
+.Progress svg .circle-background,
+.Progress svg .circle-progress {
+	fill: none;
+}
+
+.Progress svg .circle-background {
+	stroke: #ddd;
+}
+
+.Progress svg .circle-progress {
+	stroke-linecap: round;
+	stroke-linejoin: round;
+}
